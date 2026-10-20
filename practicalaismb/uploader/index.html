@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PracticalAISMB Uploader | Hearth &amp; Road LLC</title>
+<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#111111">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
@@ -14,39 +15,20 @@
 <header class="site-header">
 <div class="wrap bar">
 <a class="brand" href="/"><img src="/assets/logo-128.png" width="40" height="40" alt="Hearth &amp; Road logo"><span>Hearth &amp; Road</span></a>
-<nav aria-label="Main"><ul><li><a href="/practicalaismb/" aria-current="page">PracticalAISMB</a></li><li><a href="/vending/">Vending</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="/practicalaismb/">PracticalAISMB</a></li><li><a href="/vending/">Vending</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
 </div>
 </header>
 <main class="wrap prose">
 <h1>PracticalAISMB Uploader</h1>
-<p>PracticalAISMB Uploader is an internal tool. Only Hearth &amp; Road LLC uses it. It is not offered to the public, and no one outside the business can sign up for it.</p>
-<h2>What it does</h2>
-<p>The app uploads videos that we made ourselves to our own YouTube channel, <a href="https://www.youtube.com/@practicalaismb" rel="noopener noreferrer">@practicalaismb</a>. These videos are YouTube Shorts with practical AI tips for small business owners.</p>
-<p>That is the only thing the app does.</p>
-<h2>How it works</h2>
-<ol>
-<li>We create a Short and write its title, description and tags.</li>
-<li>The app uploads the video to our channel using the YouTube Data API v3.</li>
-<li>Each upload is set to unlisted or private. The app does not publish videos.</li>
-<li>A person reviews each video in YouTube Studio and makes it public by hand.</li>
-</ol>
-<h2>What it can access</h2>
-<ul>
-<li>The app asks Google for one permission only: the <code>youtube.upload</code> scope. This allows it to upload videos to our channel.</li>
-<li>It never reads, edits or deletes any other content on the channel.</li>
-<li>It does not access other users' accounts or data.</li>
-<li>It does not ask for any other Google permission.</li>
-</ul>
-<h2>Data</h2>
-<p>To keep uploading, the app stores one OAuth refresh token for our own channel, plus the app's client credentials. These are kept as access-restricted secrets (never in code or shared files) and are used only to upload our videos. The app stores no other user data. Full details are in our <a href="/privacy/">privacy policy</a>, including how to revoke access.</p>
-<h2>Contact</h2>
-<p>Questions about this app: <a href="mailto:PracticalAISMB@hearthandroad.com">PracticalAISMB@hearthandroad.com</a></p>
-<p class="linkrow"><a href="/privacy/">Privacy policy</a> | <a href="/terms/">Terms</a> | <a href="/practicalaismb/">PracticalAISMB</a> | <a href="/">Hearth &amp; Road LLC home</a></p>
+<p>PracticalAISMB Uploader is an internal tool from Hearth &amp; Road LLC. It uploads our own YouTube Shorts to our channel, <a href="https://www.youtube.com/@practicalaismb" rel="noopener noreferrer">@practicalaismb</a>, as unlisted or private videos.</p>
+<p>It uses one Google permission, youtube.upload, only to upload those videos.</p>
+<p class="cta"><a class="btn" href="/practicalaismb/uploader/privacy/">PracticalAISMB Uploader Terms of Use and Privacy Policy</a></p>
+<p>Contact: <a href="mailto:PracticalAISMB@hearthandroad.com">PracticalAISMB@hearthandroad.com</a></p>
 </main>
 <div class="ridge" aria-hidden="true"><svg viewBox="0 0 240 24" width="240" height="24" focusable="false"><polygon points="0,24 44,24 78,9 92,15 120,1 146,16 160,10 196,24 240,24" fill="currentColor"/></svg></div>
 <footer class="site-footer">
 <div class="wrap">
-<nav aria-label="Footer"><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/practicalaismb/uploader/">PracticalAISMB Uploader</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li></ul></nav>
+<nav aria-label="Footer"><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li></ul></nav>
 <p>&copy; 2026 Hearth &amp; Road LLC</p>
 </div>
 </footer>
